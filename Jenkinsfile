@@ -11,7 +11,7 @@ pipeline {
 
     environment {
         REGISTRY = 'hellojenk123.azurecr.io'
-        IMAGE    = 'hello-jenkins'
+        IMAGE    = 'az-img:latest'
     }
 
     stages {
