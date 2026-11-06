@@ -11,7 +11,7 @@ pipeline {
 
     environment {
         REGISTRY = 'hellojenk123.azurecr.io'
-        IMAGE    = 'az-img:latest'
+        IMAGE    = 'az-img'
     }
 
     stages {
